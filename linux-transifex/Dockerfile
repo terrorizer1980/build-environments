@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.17.3
 MAINTAINER yuzu
 RUN adduser -u 1027 -D -s /bin/bash yuzu && \
     apk update && apk add build-base \
